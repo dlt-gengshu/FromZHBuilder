@@ -33,7 +33,7 @@ namespace FromZHBuilder
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(31, 27);
+            this.button1.Location = new System.Drawing.Point(29, 45);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -42,6 +42,7 @@ namespace FromZHBuilder
             // Form1
             // 
             this.Controls.Add(this.button1);
+            this.Size = new System.Drawing.Size(275, 100);
             this.Text = "Form1";
             this.ResumeLayout(false);
 
